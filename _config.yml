@@ -18,19 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CloudJack Blog
+title: CloudJack - IT Ethics
 email: jhouser4@gmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  A student ran blog that is focused on the analysis of IT ethics and the ethical implementation of new and emerging technologies.
+  A student ran website that is focused on the analysis of IT ethics and the ethical implementation of new and emerging technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thecloudjack.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thecloudjack
 github_username:  thecloudjack
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0
+theme: minima
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
 
 # Exclude from processing.
